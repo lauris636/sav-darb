@@ -15,7 +15,6 @@ background-image: url("court.jpg");
 background-size:cover;
 font-family: Century Gothic;
 font-size:20px;
-margin:0;
 line-height:25px;
 }
 
@@ -44,6 +43,7 @@ text-align:center;
 border-radius:10px;
 font-family:Century Gothic;
 font-weight:bold;
+border: 1px solid orange;
 
 
 }
@@ -70,6 +70,7 @@ position:absolute; top:100%;
 .nav ul li:hover > ul{
 display:block;
 border-radius:10px;
+border: 1px solid black;
 }
 
 .nav ul li :hover{
@@ -83,7 +84,6 @@ color:white;
 .nav ul ul li{
 float:none;
 position:relative;
-
 }
 
 .nav ul ul li a{
@@ -92,47 +92,39 @@ color:white;
 text-align:center;
 }
 
-#header {
-	background:rgba(0,0,0);
-	background-size:cover;
+header {
+	background:rgba(0,0,0,.97);
 	font-family:Century Gothic;
 	font-weight:bold;
 	color:white;
 	text-align: center;
-	width: 100%;
 }
 
-.header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-
+header img{
+	height: 1em;
 }
 
-.header h1 {
-	float: center;
-	margin: 0;
+header h1{
+	text-align: center;
+	margin:0;
 	padding: 30px;
 }
 
-
-
 #content {
-	background:rgba(255,255,255);
+
 	float: right;
-	min-height: 300px;
-	padding: 0px 10px;
+	margin: auto;
+  width: 100%;
+	text-align:center;
 
-width: 100%;
-
-	font-family:Century Gothic;
-	font-weight:bold;
-	color:white;
 
 }
 
-#content h2 {
-	margin: 10px 0;
+.content h2 {
+	font-family:Century Gothic;
+	font-weight:bold;
+	color:black;
+
 
 }
 
@@ -141,21 +133,31 @@ width: 100%;
 
 </head>
 
-		<header>
-		  <h1><img src="ball.jpg"/>Krepšinis</h1>
-		</header>
-
 
 	<body>
+
+<header>
+	<h1><img src="ball.jpg"/>Krepšinis</h1>
+</header>
+
+
 		<div class ="nav">
-
-
 
 			<ul>
 
 				<li><a href ='#'> pirmas </a> </li>
 
-				<li><a href ='#'> antras </a>
+				<li><a href ='#'> antras  &#9660</a>
+
+						<ul>
+
+					<li><a href ='#'> 1 </a> </li>
+					<li><a href ='#'> 2 </a> </li>
+					<li><a href ='#'> 3 </a> </li>
+				</ul>
+				</li>
+
+				<li><a href ='#'> trecias &#9677</a>
 
 					<ul>
 					<li><a href ='#'> 1 </a> </li>
@@ -164,16 +166,7 @@ width: 100%;
 					</ul>
 				</li>
 
-				<li><a href ='#'> trecias </a>
-
-					<ul>
-					<li><a href ='#'> 1 </a> </li>
-					<li><a href ='#'> 2 </a> </li>
-					<li><a href ='#'> 3 </a> </li>
-					</ul>
-				</li>
-
-				<li><a href ='#'> ketvirtas </a>
+				<li><a href ='#'> ketvirtas &#9677 </a>
 
 					<ul>
 					<li><a href ='#'> 1 </a> </li>
@@ -184,18 +177,18 @@ width: 100%;
 				<li style="float:right"><a href ='#'> Prisijungti </a> </li>
 
 			</ul>
-
-
+		</div>
 
 			<div id="content">
 				<article>
 					<h2> Puslapio tekstas </h2>
-
+				</article>
 
 		</div>
 
 
-	</body>
+</body>
+
 
 
 </html>
