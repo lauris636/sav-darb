@@ -15,7 +15,6 @@ background-image: url("court.jpg");
 background-size:cover;
 font-family: Century Gothic;
 font-size:20px;
-margin:0;
 line-height:25px;
 }
 
@@ -92,25 +91,21 @@ color:white;
 text-align:center;
 }
 
-#header {
+header {
 	background:rgba(0,0,0);
 	background-size:cover;
 	font-family:Century Gothic;
 	font-weight:bold;
 	color:white;
 	text-align: center;
-	width: 100%;
 }
 
-#header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-
+header img {
+height: 1em;
 }
 
-#header h1 {
-	float: center;
+header h1 {
+	text-align: center;
 	margin: 0;
 	padding: 30px;
 }
@@ -123,7 +118,7 @@ text-align:center;
 	min-height: 300px;
 	padding: 0px 10px;
 
-width: 100%;
+	width: 100%;
 
 	font-family:Century Gothic;
 	font-weight:bold;
@@ -142,15 +137,12 @@ width: 100%;
 </head>
 
 	<body>
-		<div class ="nav">
 
-		<div id="header">
-	  <img src="ball.jpg" />
-	  <h1>Krepšinis</h1>
-		</div>
-
+		<header>
+		  <h1><img src="ball.jpg"/>Krepšinis</h1>
 		</header>
 
+	<div class ="nav">
 			<ul>
 
 				<li><a href ='#'> pirmas </a> </li>
