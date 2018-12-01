@@ -154,7 +154,7 @@ p {
 	<body>
 
 <header>
-	<h1><img src="ball.jpg"/>Lietuvos vyrų krepšinio rinktinės, priziniai pasiekimai.</h1>
+	<h1><img src="ball.jpg"/>Lietuvos vyru krep�inio rinktines, priziniai pasiekimai.</h1>
 </header>
 
 
@@ -169,9 +169,9 @@ p {
 
 				<ul>
 
-					<li><a href ='#'> 1937 m. Europos čempionatas </a> </li>
-					<li><a href ='#'> 1939 m. Europos čempionatas  </a> </li>
-					<li><a href ='#'> 2003 m. Europos čempionatas  </a> </li>
+					<li><a href ='#'> 1937 m. Europos cempionatas </a> </li>
+					<li><a href ='#'> 1939 m. Europos cempionatas  </a> </li>
+					<li><a href ='#'> 2003 m. Europos cempionatas  </a> </li>
 				</ul>
 				</li>
 
@@ -179,20 +179,20 @@ p {
 
 					<ul>
 
-					<li><a href ='#'> 1995 m. Europos čempionatas </a> </li>
-					<li><a href ='#'> 2013 m. Europos čempionatas </a> </li>
-					<li><a href ='#'> 2015 m. Europos čempionatas </a> </li>
+					<li><a href ='#'> 1995 m. Europos cempionatas </a> </li>
+					<li><a href ='#'> 2013 m. Europos cempionatas </a> </li>
+					<li><a href ='#'> 2015 m. Europos cempionatas </a> </li>
 					</ul>
 				</li>
 
 				<li><a href ='#'> Bronza <span style="float:right;">&#9677</span> </a>
 
 					<ul>
-					<li><a href ='#'> 1992 m. Olimpinės žaidynės  </a> </li>
-					<li><a href ='#'> 1996 m. Olimpinės žaidynės </a> </li>
-					<li><a href ='#'> 2000 m. Olimpinės žaidynės</a> </li>
-					<li><a href ='#'> 2007 m. Europos čempionatas </a> </li>
-					<li><a href ='#'> 2010 m. Pasaulio čempionatas </a> </li>
+					<li><a href ='#'> 1992 m. Olimpines �aidynes  </a> </li>
+					<li><a href ='#'> 1996 m. Olimpines �aidynes </a> </li>
+					<li><a href ='#'> 2000 m. Olimpines �aidynes</a> </li>
+					<li><a href ='#'> 2007 m. Europos cempionatas </a> </li>
+					<li><a href ='#'> 2010 m. Pasaulio cempionatas </a> </li>
 					</ul>
 				</li>
 
@@ -204,9 +204,9 @@ p {
 			<div id="content">
 				<article>
 					<h2> Puslapio tekstas </h2>
-					<p> Tekstas – duomenys, pateikiami ženklais, simboliais, žodžiais, žodžių junginiais, sakiniais,
-						 pastraipomis, lentelėmis, išnašomis ar kitais ženklų junginiais, parengti siekiant perteikti prasmę ir
-						darant prielaidą, jog jie suvokiami skaitytojų, mokančių tam tikrą natūraliąją arba dirbtinę kalbą.</p>
+					<p> Tekstas � duomenys, pateikiami �enklais, simboliais, �od�iais, �od�iu junginiais, sakiniais,
+						 pastraipomis, lentelemis, i�na�omis ar kitais �enklu junginiais, parengti siekiant perteikti prasme ir
+						darant prielaida, jog jie suvokiami skaitytoju, mokanciu tam tikra naturaliaja arba dirbtine kalba.</p>
 				</article>
 
 		</div>

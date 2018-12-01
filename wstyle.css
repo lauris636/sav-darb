@@ -1,0 +1,54 @@
+header {
+	background:rgba(0,0,0,.65);
+	font-family:Century Gothic;
+	font-weight:bold;
+	color:white;
+	text-align: center;
+}
+
+header img{
+	height: 1.7em;
+}
+
+header h1{
+	text-align: center;
+	margin:0;
+	padding: 35px;
+}
+
+.content h2 {
+	font-family:Century Gothic;
+	font-weight:bold;
+	color:black;
+	text-align:center;
+}
+
+p {
+	font-family:Century Gothic;
+	font-weight:bold;
+	color:black;
+	text-align: left;
+	padding-left: 160px;
+	padding-right: 160px;
+ 
+}
+
+footer {
+   box-sizing: border-box;
+   
+   bottom:0;
+   width:100%;
+   line-height: 25px;
+   position: fixed;
+
+   background:rgba(0,0,0,.65);
+   font-family:Century Gothic;
+   color:white;
+   font-weight:bold;
+   text-align: right;
+   font-size: 17px;
+
+   padding-right: 100px;
+   padding-left: 100px;
+	
+}
